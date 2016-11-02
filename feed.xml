@@ -3,10 +3,10 @@
   <channel>
     <title>CapitaineStar</title>
     <description>Far Upstream is a DevBlog dedicated to the personnal projects of CapitaineStar</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Nov 2016 23:52:02 +0100</pubDate>
-    <lastBuildDate>Tue, 01 Nov 2016 23:52:02 +0100</lastBuildDate>
+    <link>http://farupstream.com/</link>
+    <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Nov 2016 02:15:25 +0100</pubDate>
+    <lastBuildDate>Wed, 02 Nov 2016 02:15:25 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -29,17 +29,19 @@
 
 &lt;h4 id=&quot;about-me&quot;&gt;About me&lt;/h4&gt;
 
-&lt;p&gt;I am Jérôme Viens Brie (AKA Capitaine Star) and I’ve been making games for almost 6 years now. Most of my time as been spent on AAA titles at Ubisoft Quebec (check out the stuff I worked on!). My last official job title has been “Assistant” Technical Art Director which basically mean that I make sure the game works fine by constantly nagging the programmers and preventing artists to do too much damage. I have an academic background in computer science AND Arts so that makes me some kind of jake-of-all-trades. With all those skills and experience, I’m sure everything will be juuust fine.&lt;/p&gt;
+&lt;p&gt;I am Jérôme Viens Brie (AKA Capitaine Star) and I’ve been making games for almost 6 years now. Most of my time as been spent on AAA titles at Ubisoft Quebec (&lt;a href=&quot;http://jeromebrie.com&quot; target=&quot;_blank&quot;&gt;check out the stuff I worked on!&lt;/a&gt;). My last official job title has been “Assistant” Technical Art Director which basically mean that I make sure the game works fine by constantly nagging the programmers and preventing artists to do too much damage. I have an academic background in computer science AND Arts so that makes me some kind of jake-of-all-trades. With all those skills and experience, I’m sure &lt;a href=&quot;http://i.imgur.com/l3v4P3s.jpg&quot; target=&quot;_blank&quot;&gt;everything will be juuust fine&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;about-the-dev-blog&quot;&gt;About the Dev Blog&lt;/h4&gt;
 
 &lt;p&gt;Hopefully, I will update this blog at a (semi-)regular interval. There will be work-in-progress screenshots, update on current status and probably a couple of stories about how I fucked up something. Most importantly, I will upload some builds from time to time to get some feedback. With a bit of luck, those will not be complete buggy mess!&lt;/p&gt;
 
+&lt;p&gt;Also, I have the intention of creating some short tutorials to, you know, give back. The majority of the knowledge I currently have or will eventually learn comes from online sources so it’s about damn time I contribute a little!&lt;/p&gt;
+
 &lt;p&gt;That’s it! Hey look down! There’s a nifty section for comments!&lt;/p&gt;
 </description>
-        <pubDate>Sun, 30 Oct 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/articles/2016-10/heres-the-plan</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2016-10/heres-the-plan</guid>
+        <pubDate>Tue, 01 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://farupstream.com/articles/2016-11/heres-the-plan</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2016-11/heres-the-plan</guid>
         
         
         <category>hello world</category>
