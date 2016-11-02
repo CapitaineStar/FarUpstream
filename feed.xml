@@ -5,9 +5,48 @@
     <description>Far Upstream is a DevBlog dedicated to the personnal projects of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Nov 2016 05:17:41 +0100</pubDate>
-    <lastBuildDate>Wed, 02 Nov 2016 05:17:41 +0100</lastBuildDate>
+    <pubDate>Wed, 02 Nov 2016 14:09:46 +0100</pubDate>
+    <lastBuildDate>Wed, 02 Nov 2016 14:09:46 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Here's the plan...</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/X0OoHrPvgXE/1250x500&quot; alt=&quot;Unsplash Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m making a game!&lt;/p&gt;
+
+&lt;p&gt;Estimated current progress = &lt;strong&gt;1%&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I kinda know what I want to make but have no idea what it will become. The current goal is to have a functionnal prototype as quickly as possible. I intend on being pretty open about the developement of this game. There will be good fortunes and mishaps along the way and provided they are not too embarassing, I will share it here.&lt;/p&gt;
+
+&lt;p&gt;Oh! also, there is no official title for now (&lt;strong&gt;TO DO&lt;/strong&gt;) but here’s what it’s all about:&lt;/p&gt;
+
+&lt;h4 id=&quot;the-elevator-pitch&quot;&gt;The elevator pitch&lt;/h4&gt;
+
+&lt;p&gt;The game is a strategic-shooter about tracking down an adversary across the multiverse. The player has to find and choose the right gear to complete his task. The world is lifeless, hostile and full of surprises. Viewed from a third-person perspective and with a 3D environment created with procedural art on acid.&lt;/p&gt;
+
+&lt;p&gt;This is not a story-driven game but there will be a minimalistic narrative through the setting and the characters. The focus will be on a short experience with a lot of replayability.&lt;/p&gt;
+
+&lt;h4 id=&quot;about-me&quot;&gt;About me&lt;/h4&gt;
+
+&lt;p&gt;I am Jérôme Viens Brie (AKA Capitaine Star) and I’ve been making games for almost 6 years now. Most of my time as been spent on AAA titles at Ubisoft Quebec (&lt;a href=&quot;http://jeromebrie.com&quot; target=&quot;_blank&quot;&gt;check out the stuff I worked on!&lt;/a&gt;). My last official job title has been “Assistant” Technical Art Director which basically mean that I make sure the game works fine by constantly nagging the programmers and preventing artists to do too much damage. I have an academic background in computer science AND Arts so that makes me some kind of jake-of-all-trades. With all those skills and experience, I’m sure &lt;a href=&quot;https://goo.gl/YcPrAh&quot; target=&quot;_blank&quot;&gt;everything will be juuust fine&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;about-the-dev-blog&quot;&gt;About the Dev Blog&lt;/h4&gt;
+
+&lt;p&gt;Hopefully, I will update this blog at a (semi-)regular interval. There will be work-in-progress screenshots, update on current status and probably a couple of stories about how I fucked up something. Most importantly, I will upload some builds from time to time to get some feedback. With a bit of luck, those will not be complete buggy mess!&lt;/p&gt;
+
+&lt;p&gt;Also, I have the intention of creating some short tutorials to, you know, give back. The majority of the knowledge I currently have or will eventually learn comes from online sources so it’s about damn time I contribute a little!&lt;/p&gt;
+
+&lt;p&gt;That’s it! Hey look down! There’s a nifty section for comments!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://farupstream.com/articles/2016-11/heres-the-plan</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2016-11/heres-the-plan</guid>
+        
+        
+        <category>hello world</category>
+        
+      </item>
     
   </channel>
 </rss>
