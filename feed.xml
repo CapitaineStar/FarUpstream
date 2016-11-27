@@ -5,9 +5,56 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Nov 2016 19:47:04 +0100</pubDate>
-    <lastBuildDate>Sat, 05 Nov 2016 19:47:04 +0100</lastBuildDate>
+    <pubDate>Sun, 27 Nov 2016 21:18:46 +0000</pubDate>
+    <lastBuildDate>Sun, 27 Nov 2016 21:18:46 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Baby steps</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/mln2ExJIkfc/1250x500&quot; alt=&quot;Unsplash Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I just finished the first “real” full-time work week for the game. Here’s what happened:&lt;/p&gt;
+
+&lt;h4 id=&quot;the-grid&quot;&gt;The Grid&lt;/h4&gt;
+&lt;p&gt;First a bit more info on a crucial element of the game: I have decided to use an &lt;a href=&quot;https://en.wikipedia.org/wiki/Hex_map&quot; target=&quot;_blank&quot;&gt;hex grid&lt;/a&gt; for the game “board”. It’s normally exclusive to strategy games (think Civ or Catan) but this will serve 3 important purposes in my case:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Help create a modular system for the game assets, especially everything related to the terrain. This will be way better than having to create manually a terrain that is limited in it’s size (for manpower and memory reasons), or coming up with big world generator (Notch was not available since he’s busy writing shitty tweets).&lt;/li&gt;
+  &lt;li&gt;Serve as a foundation to design the strategic elements of the game. Some hexagon tiles will influence the gameplay in specific ways and inversely the player will have abilities that can affect the tiles. Most of these features will be managed in a “map view” where the grid will be pretty obvious.&lt;/li&gt;
+  &lt;li&gt;Hex grids make everything awesome!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;progress-so-far&quot;&gt;Progress so far&lt;/h4&gt;
+
+&lt;p&gt;First screenshot! Whooo!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/vrlcPJh.png&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is what has been achieve this week :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The data structure that describes the properties of a univers (or level if you want). It’s pretty basic for now but it can be easily expanded in the future.&lt;/li&gt;
+  &lt;li&gt;Using this data, I can spawn an environment that endlessly grows as the player moves. The look and gameplay elements are also setup automatically by the data structure and can be switched easily.&lt;/li&gt;
+  &lt;li&gt;A &lt;strong&gt;very&lt;/strong&gt; basic terrain, that is functional but really ugly. It served mostly as a workbench to test the modular approach to the ground creation and I’m happy to have a result that is mostly seamless (transition between hexagon tiles are almost hidden).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Next step is to implement the first iteration of the 3Cs (Character, Camera and Controls). I estimate it will take me at least another week to have something decent. After this is done, I will probably be ready to share the first build of the “game”. Of course, it will be very bare bones with nothing to do but running endlessly in an unattractive desert. Exciting no? Don’t worry, I’ll let you know when it’s ready so you’ll be able to tell me how much it’s disappointing ;)&lt;/p&gt;
+
+&lt;h4 id=&quot;cyberspace-of-the-north&quot;&gt;Cyberspace of the North&lt;/h4&gt;
+
+&lt;p&gt;Internet access is only possible with satellites in Kuujjuaq. As you may guess, this means that it’s expensive and the quality depends on a lot of factors (whether there’s a lot of people using it at the same time or if it snowed on the satellite dish). Normally, the download speed is “ok” (average of 0.8 Mb/s) but the latency is really high (about 600ms). Here’s what &lt;a href=&quot;http://beta.speedtest.net/result/5831645979&quot; target=&quot;_blank&quot;&gt;a typical connection looks like&lt;/a&gt;. To be honest, it can be really frustrating when it slows down to a crawl but I just have to be patient and remind myself that my Google search result for “&lt;a href=&quot;http://www.google.ca/search?q=raccoon+stealing+cat+food&quot; target=&quot;_blank&quot;&gt;raccoon stealing cat food&lt;/a&gt;” is coming from &lt;strong&gt;fucking space!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Stay tuned!&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
+        <link>http://farupstream.com/articles/2016-11/baby-steps</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2016-11/baby-steps</guid>
+        
+        
+        <category>dev update</category>
+        
+      </item>
     
       <item>
         <title>Here's the plan...</title>
