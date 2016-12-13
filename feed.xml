@@ -5,25 +5,25 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Dec 2016 00:02:29 +0000</pubDate>
-    <lastBuildDate>Tue, 13 Dec 2016 00:02:29 +0000</lastBuildDate>
+    <pubDate>Tue, 13 Dec 2016 00:18:23 +0000</pubDate>
+    <lastBuildDate>Tue, 13 Dec 2016 00:18:23 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>First &amp;quot;playable</title>
+        <title>First &amp;quot;playable&amp;quot;</title>
         <description>&lt;p&gt;Ok so that took longer than expected! Not only did I stray a little bit too far from the main path, but I also had a &lt;strong&gt;lot&lt;/strong&gt; of troubles packaging an executable. Long story short: I had to re-download Unreal Engine completely (fun times).&lt;/p&gt;
 
 &lt;h4 id=&quot;progress-so-far&quot;&gt;Progress so far&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/1O47mzF.png&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/1O47mzF.png&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; style=&quot;max-height:500px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Since last update, I managed to:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;add a main character. Of course, he’s mostly a placeholder currently but I probably want to stay in this direction. I’ll try a couple of different style and models in the coming weeks.&lt;/li&gt;
-  &lt;li&gt;implement a basic control scheme. Apart from the main character’s movement, there is a couple of small details in there to make it “feel” right.&lt;/li&gt;
-  &lt;li&gt;modify the environment a little. I’m not really satisfied with it yet, so I’ll probably need to come up with some other solutions, mostly for managing the colours.&lt;/li&gt;
-  &lt;li&gt;add a pause menu. It was kind of bad that the only way to exit the game was to Alt+F4 it.&lt;/li&gt;
+  &lt;li&gt;Add a main character. Of course, he’s mostly a placeholder currently but I probably want to stay in this direction. I’ll try a couple of different style and models in the coming weeks.&lt;/li&gt;
+  &lt;li&gt;Implement a basic control scheme. Apart from the main character’s movement, there is a couple of small details in there to make it “feel” right.&lt;/li&gt;
+  &lt;li&gt;Modify the environment a little. I’m not really satisfied with it yet, so I’ll probably need to come up with some other solutions, mostly for managing the colours.&lt;/li&gt;
+  &lt;li&gt;Add a pause menu. It was kind of bad that the only way to exit the game was to Alt+F4 it.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The next goal will be to finally finish the design document and to add some real gameplay in there. I’ve been refining my thoughts on the design elements recently and trying to come up with something that &lt;em&gt;in theory&lt;/em&gt; will be a great game.&lt;/p&gt;
@@ -38,7 +38,7 @@
 
 &lt;p&gt;It supports keyboard + mouse inputs as well as gamepads. The controls should be pretty simple to figure out for anyone who has played a videogame in the last decade. Not much to do in the game right now but hey, you can always make “Pew Pew” sounds with your mouth and imagine shooting lasers at aliens.&lt;/p&gt;
 
-&lt;p&gt;One really useful thing you can do is answering this &lt;a href=&quot;https://goo.gl/forms/7yedkmnDzgnU2UkM2&quot;&gt;short survey&lt;/a&gt;. I would be eternally grateful for any early feedback that you can give me. You can also leave a comment below if you prefer.&lt;/p&gt;
+&lt;p&gt;One really useful thing you can do is answering this &lt;a href=&quot;https://goo.gl/forms/7yedkmnDzgnU2UkM2&quot; target=&quot;_blank&quot;&gt;short survey&lt;/a&gt;. I would be eternally grateful for any early feedback that you can give me. You can also leave a comment or question below if you prefer.&lt;/p&gt;
 
 &lt;p&gt;Stay awesome!&lt;/p&gt;
 
