@@ -8,11 +8,11 @@
     <meta name="google-site-verification" content="JBsvEEVRe2x8KNW3rV08Vp7YnqcZ0ygZv-XQ9JhSsu0">
     <meta name="description" content="DevBlog of CapitaineStar">
 
-    <title>Baby steps</title>
+    <title>First &quot;playable</title>
     <!-- CSS files -->
     <link rel="stylesheet" href="http://farupstream.com/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://farupstream.com/css/main.css">
-    <link rel="canonical" href="http://farupstream.com/articles/2016-11/baby-steps">
+    <link rel="canonical" href="http://farupstream.com/articles/2016-12/first-playable">
     <link rel="alternate" type="application/rss+xml" title="Far Upstream" href="http://farupstream.com/feed.xml" />
     <!-- Icons -->
     <!-- 16x16 -->
@@ -118,9 +118,9 @@
 <div class="post-image-feature">
   <img class="feature-image" src=
   
-  "https://source.unsplash.com/mln2ExJIkfc/1250x500"
+  "https://source.unsplash.com/PQAZ_RZ9kdY/1250x500"
   
-  alt="Baby steps feature image">
+  alt="First &quot;playable feature image">
 
   
 </div><!-- /.image-wrap -->
@@ -128,16 +128,16 @@
 
 <div id="post">
   <header class="post-header">
-    <h1 title="Baby steps">Baby steps</h1>
+    <h1 title="First &quot;playable">First &quot;playable</h1>
     <span class="post-meta">
       <span class="post-date">
-        27 NOV 2016
+        12 DEC 2016
       </span>
       
       <span class="read-time" title="Estimated read time">
   
   
-    2 mins read
+    1 min read
   
 </span>
 
@@ -146,38 +146,36 @@
   </header>
 
   <article class="post-content">
-    <p>I just finished the first “real” full-time work week for the game. Here’s what happened:</p>
-
-<h4 id="the-grid">The Grid</h4>
-<p>First a bit more info on a crucial element of the game: I have decided to use an <a href="https://en.wikipedia.org/wiki/Hex_map" target="_blank">hex grid</a> for the game “board”. It’s normally exclusive to strategy games (think Civ or Catan) but this will serve 3 important purposes in my case:</p>
-
-<ol>
-  <li>Help create a modular system for the game assets, especially everything related to the terrain. This will be way better than having to create manually a terrain that is limited in it’s size (for manpower and memory reasons), or coming up with big world generator (Notch was not available since he’s busy writing shitty tweets).</li>
-  <li>Serve as a foundation to design the strategic elements of the game. Some hexagon tiles will influence the gameplay in specific ways and inversely the player will have abilities that can affect the tiles. Most of these features will be managed in a “map view” where the grid will be pretty obvious.</li>
-  <li>Hex grids make everything awesome!</li>
-</ol>
+    <p>Ok so that took longer than expected! Not only did I stray a little bit too far from the main path, but I also had a <strong>lot</strong> of troubles packaging an executable. Long story short: I had to re-download Unreal Engine completely (fun times).</p>
 
 <h4 id="progress-so-far">Progress so far</h4>
 
-<p>First screenshot! Whooo!</p>
+<p><img src="http://i.imgur.com/1O47mzF.png" alt="screenshot" title="progress screenshot" /></p>
 
-<p><img src="http://i.imgur.com/vrlcPJh.png" alt="screenshot" title="progress screenshot" /></p>
-
-<p>This is what has been achieve this week :</p>
+<p>Since last update, I managed to:</p>
 
 <ul>
-  <li>The data structure that describes the properties of a univers (or level if you want). It’s pretty basic for now but it can be easily expanded in the future.</li>
-  <li>Using this data, I can spawn an environment that endlessly grows as the player moves. The look and gameplay elements are also setup automatically by the data structure and can be switched easily.</li>
-  <li>A <strong>very</strong> basic terrain, that is functional but really ugly. It served mostly as a workbench to test the modular approach to the ground creation and I’m happy to have a result that is mostly seamless (transition between hexagon tiles are almost hidden).</li>
+  <li>add a main character. Of course, he’s mostly a placeholder currently but I probably want to stay in this direction. I’ll try a couple of different style and models in the coming weeks.</li>
+  <li>implement a basic control scheme. Apart from the main character’s movement, there is a couple of small details in there to make it “feel” right.</li>
+  <li>modify the environment a little. I’m not really satisfied with it yet, so I’ll probably need to come up with some other solutions, mostly for managing the colours.</li>
+  <li>add a pause menu. It was kind of bad that the only way to exit the game was to Alt+F4 it.</li>
 </ul>
 
-<p>Next step is to implement the first iteration of the 3Cs (Character, Camera and Controls). I estimate it will take me at least another week to have something decent. After this is done, I will probably be ready to share the first build of the “game”. Of course, it will be very bare bones with nothing to do but running endlessly in an unattractive desert. Exciting no? Don’t worry, I’ll let you know when it’s ready so you’ll be able to tell me how much it’s disappointing ;)</p>
+<p>The next goal will be to finally finish the design document and to add some real gameplay in there. I’ve been refining my thoughts on the design elements recently and trying to come up with something that <em>in theory</em> will be a great game.</p>
 
-<h4 id="cyberspace-of-the-north">Cyberspace of the North</h4>
+<h4 id="first-playable-build">First playable build</h4>
 
-<p>Internet access is only possible with satellites in Kuujjuaq. As you may guess, this means that it’s expensive and the quality depends on a lot of factors (whether there’s a lot of people using it at the same time or if it snowed on the satellite dish). Normally, the download speed is “ok” (average of 0.8 Mb/s) but the latency is really high (about 600ms). Here’s what <a href="http://beta.speedtest.net/result/5831645979" target="_blank">a typical connection looks like</a>. To be honest, it can be really frustrating when it slows down to a crawl but I just have to be patient and remind myself that my Google search result for “<a href="http://www.google.ca/search?q=raccoon+stealing+cat+food" target="_blank">raccoon stealing cat food</a>” is coming from <strong>fucking space!</strong></p>
+<p>Like promised, I am now able to share the current state of the game! Here’s the download link for version 0.2:</p>
 
-<p>Stay tuned!</p>
+<p><a class="btn btn-info" href="https://drive.google.com/uc?export=download&amp;id=0B69VFxUQ_NcubTkzOGtoR1o5ZVk" target="_blank">
+  Multivrs v0.2
+</a></p>
+
+<p>It supports keyboard + mouse inputs as well as gamepads. The controls should be pretty simple to figure out for anyone who has played a videogame in the last decade. Not much to do in the game right now but hey, you can always make “Pew Pew” sounds with your mouth and imagine shooting lasers at aliens.</p>
+
+<p>One really useful thing you can do is answering this <a href="https://goo.gl/forms/7yedkmnDzgnU2UkM2">short survey</a>. I would be eternally grateful for any early feedback that you can give me. You can also leave a comment below if you prefer.</p>
+
+<p>Stay awesome!</p>
 
 
   </article>
@@ -187,16 +185,16 @@
   <h6>Share on: </h6>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=http://farupstream.com/articles/2016-11/baby-steps" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=http://farupstream.com/articles/2016-12/first-playable" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=http://farupstream.com/articles/2016-11/baby-steps" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://farupstream.com/articles/2016-12/first-playable" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=http://farupstream.com/articles/2016-11/baby-steps" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=http://farupstream.com/articles/2016-12/first-playable" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
     <li>
-      <a href="https://www.reddit.com/submit?url=http://farupstream.com/articles/2016-11/baby-steps" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
+      <a href="https://www.reddit.com/submit?url=http://farupstream.com/articles/2016-12/first-playable" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
     </li>
   </ul>
 </div><!-- end share-buttons -->

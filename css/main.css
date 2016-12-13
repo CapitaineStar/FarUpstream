@@ -1175,7 +1175,8 @@ p {
 .btn-info {
   background-color: #09ABF6;
   color: #f4f1e7;
-  border-color: #09ABF6; }
+  border-color: #09ABF6;
+  margin-bottom: 0px; }
   .btn-info:visited {
     border-color: #09ABF6;
     color: #f4f1e7; }
@@ -1629,6 +1630,9 @@ section.post {
   border-radius: 0.4em;
   padding: 0.5em 1em; }
 
+.post-title {
+  font-size: 30px; }
+
 .post-title-link {
   color: #DC3522;
   font-size: 14px;
@@ -1654,12 +1658,12 @@ a.read-more {
   padding: 5px 8px; }
 
 #post {
-  padding-bottom: 50px; }
+  padding-bottom: 10px; }
   #post .post-header {
     margin: 0 auto 50px; }
 
 #post h1 {
-  margin: 0.5em 0 1em; }
+  margin: 0 0 10px; }
 
 #post h2 {
   margin: 2em 0 0.8em;
