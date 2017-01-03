@@ -8,11 +8,11 @@
     <meta name="google-site-verification" content="JBsvEEVRe2x8KNW3rV08Vp7YnqcZ0ygZv-XQ9JhSsu0">
     <meta name="description" content="DevBlog of CapitaineStar">
 
-    <title>First &quot;playable&quot;</title>
+    <title>This is getting interesting</title>
     <!-- CSS files -->
     <link rel="stylesheet" href="http://farupstream.com/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://farupstream.com/css/main.css">
-    <link rel="canonical" href="http://farupstream.com/articles/2016-12/first-playable">
+    <link rel="canonical" href="http://farupstream.com/articles/2017-01/getting-interesting">
     <link rel="alternate" type="application/rss+xml" title="Far Upstream" href="http://farupstream.com/feed.xml" />
     <!-- Icons -->
     <!-- 16x16 -->
@@ -118,9 +118,9 @@
 <div class="post-image-feature">
   <img class="feature-image" src=
   
-  "https://source.unsplash.com/PQAZ_RZ9kdY/1250x500"
+  "https://source.unsplash.com/C-wZznnEAH8/1250x500"
   
-  alt="First &quot;playable&quot; feature image">
+  alt="This is getting interesting feature image">
 
   
 </div><!-- /.image-wrap -->
@@ -128,16 +128,16 @@
 
 <div id="post">
   <header class="post-header">
-    <h1 title="First &quot;playable&quot;">First &quot;playable&quot;</h1>
+    <h1 title="This is getting interesting">This is getting interesting</h1>
     <span class="post-meta">
       <span class="post-date">
-        12 DEC 2016
+        3 JAN 2017
       </span>
       
       <span class="read-time" title="Estimated read time">
   
   
-    1 min read
+    2 mins read
   
 </span>
 
@@ -146,36 +146,32 @@
   </header>
 
   <article class="post-content">
-    <p>Ok so that took longer than expected! Not only did I stray a little bit too far from the main path, but I also had a <strong>lot</strong> of troubles packaging an executable. Long story short: I had to re-download Unreal Engine completely (fun times).</p>
+    <p>Happy new cosmic cycle everyone!</p>
+
+<p>I wish you 31,536,000 seconds of awesomeness.</p>
+
+<p>Also, a big thank you to everyone that took the time to download, play and answer the survey for the first build. This means a lot to me!</p>
+
+<h4 id="finding-the-prey">Finding the Prey</h4>
+
+<p>As you may remember, the ultimate goal of this game is about hunting down a Prey (real name TBD). The only <em>small</em> issue here is that you’re in an infinite Multiverse. Meaning: endless parallel Universes. Shit’s big yo! Good luck finding the only living thing other than yourself! Because this could get boring pretty fast, you will be able to learn information about the Prey’s current position by collecting special items called Spotters.</p>
+
+<p>There exists 2 different types of these: Location and Momentum. The first gives you the current position of the Prey and with the second you learn its momentum (or current direction). Brainy readers among us may now have realized that this is a direct reference to <a href="https://en.wikipedia.org/wiki/Uncertainty_principle">Heisenberg’s Uncertainty principle</a>. This is a good indication that you can expect this game concept to go full on nerd.</p>
 
 <h4 id="progress-so-far">Progress so far</h4>
 
-<p><img src="http://i.imgur.com/1O47mzF.png" alt="screenshot" title="progress screenshot" style="max-height:500px" /></p>
-
-<p>Since last update, I managed to:</p>
+<p>Here’s some of the stuff that no longer gives me headaches:</p>
 
 <ul>
-  <li>Add a main character. Of course, he’s mostly a placeholder currently but I probably want to stay in this direction. I’ll try a couple of different style and models in the coming weeks.</li>
-  <li>Implement a basic control scheme. Apart from the main character’s movement, there is a couple of small details in there to make it “feel” right.</li>
-  <li>Modify the environment a little. I’m not really satisfied with it yet, so I’ll probably need to come up with some other solutions, mostly for managing the colours.</li>
-  <li>Add a pause menu. It was kind of bad that the only way to exit the game was to Alt+F4 it.</li>
+  <li>The <em>Masterplan</em> is done. I was working on this for a looonng time and I can now say with some relief that I finally have the big picture figured out. This includes the complete set of features for version 1.0 (or Alpha or whatever you want to call it). Of course some things will still change along the journey but at least I know where I’m headed. Here’s a draft version for the One Pager that is still WIP. I will not explain it right now but I couldn’t wait to share it! <br /><img src="http://i.imgur.com/xL1bk9O.png" alt="screenshot" title="progress screenshot" style="max-height:500px" /></li>
+  <li>I have now put in place the system for picking up equipment and items. Aside from the Spotters mentioned above, you can grab equipment that will give you abilities as long as you possess them. For now, only 2 of those are functional but I plan on creating a <strong>LOT</strong> more. I will go into more details about the equipment some other time.</li>
+  <li>A very simple HUD is now displayed. There is information about the current equipment, Spotters, and Health of the character. I want to keep things minimalist so there may already be too much information but it’s also kind of useful to have. We’ll see.</li>
+  <li>Freshly added is the map view, an overlay where the hexagon map and your progress is displayed. The map gets bigger as you travel in the world and some hexagon tiles have special icons to indicate points of interests.</li>
 </ul>
 
-<p>The next goal will be to finally finish the design document and to add some real gameplay in there. I’ve been refining my thoughts on the design elements recently and trying to come up with something that <em>in theory</em> will be a great game.</p>
+<p>Next steps are first to finish the map view by squashing the bugs and second adding the Shelters. These will be places where the character will have to rest in order to recover from the hostile environment. It will also be a place to use special abilities and plan your strategy.</p>
 
-<h4 id="first-playable-build">First playable build</h4>
-
-<p>Like promised, I am now able to share the current state of the game! Here’s the download link for version 0.2:</p>
-
-<p><a class="btn btn-info" href="https://drive.google.com/uc?export=download&amp;id=0B69VFxUQ_NcubTkzOGtoR1o5ZVk" target="_blank">
-  Multivrs v0.2
-</a></p>
-
-<p>It supports keyboard + mouse inputs as well as gamepads. The controls should be pretty simple to figure out for anyone who has played a videogame in the last decade. Not much to do in the game right now but hey, you can always make “Pew Pew” sounds with your mouth and imagine shooting lasers at aliens.</p>
-
-<p>One really useful thing you can do is answering this <a href="https://goo.gl/forms/7yedkmnDzgnU2UkM2" target="_blank">short survey</a>. I would be eternally grateful for any early feedback that you can give me. You can also leave a comment or question below if you prefer.</p>
-
-<p>Stay awesome!</p>
+<p>Stay awesome folks!</p>
 
 
   </article>
@@ -185,16 +181,16 @@
   <h6>Share on: </h6>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=http://farupstream.com/articles/2016-12/first-playable" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=http://farupstream.com/articles/2017-01/getting-interesting" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=http://farupstream.com/articles/2016-12/first-playable" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://farupstream.com/articles/2017-01/getting-interesting" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=http://farupstream.com/articles/2016-12/first-playable" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=http://farupstream.com/articles/2017-01/getting-interesting" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
     <li>
-      <a href="https://www.reddit.com/submit?url=http://farupstream.com/articles/2016-12/first-playable" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
+      <a href="https://www.reddit.com/submit?url=http://farupstream.com/articles/2017-01/getting-interesting" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
     </li>
   </ul>
 </div><!-- end share-buttons -->

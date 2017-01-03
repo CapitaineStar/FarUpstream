@@ -5,9 +5,48 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Dec 2016 00:18:23 +0000</pubDate>
-    <lastBuildDate>Tue, 13 Dec 2016 00:18:23 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Jan 2017 23:19:54 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Jan 2017 23:19:54 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>This is getting interesting</title>
+        <description>&lt;p&gt;Happy new cosmic cycle everyone!&lt;/p&gt;
+
+&lt;p&gt;I wish you 31,536,000 seconds of awesomeness.&lt;/p&gt;
+
+&lt;p&gt;Also, a big thank you to everyone that took the time to download, play and answer the survey for the first build. This means a lot to me!&lt;/p&gt;
+
+&lt;h4 id=&quot;finding-the-prey&quot;&gt;Finding the Prey&lt;/h4&gt;
+
+&lt;p&gt;As you may remember, the ultimate goal of this game is about hunting down a Prey (real name TBD). The only &lt;em&gt;small&lt;/em&gt; issue here is that you’re in an infinite Multiverse. Meaning: endless parallel Universes. Shit’s big yo! Good luck finding the only living thing other than yourself! Because this could get boring pretty fast, you will be able to learn information about the Prey’s current position by collecting special items called Spotters.&lt;/p&gt;
+
+&lt;p&gt;There exists 2 different types of these: Location and Momentum. The first gives you the current position of the Prey and with the second you learn its momentum (or current direction). Brainy readers among us may now have realized that this is a direct reference to &lt;a href=&quot;https://en.wikipedia.org/wiki/Uncertainty_principle&quot;&gt;Heisenberg’s Uncertainty principle&lt;/a&gt;. This is a good indication that you can expect this game concept to go full on nerd.&lt;/p&gt;
+
+&lt;h4 id=&quot;progress-so-far&quot;&gt;Progress so far&lt;/h4&gt;
+
+&lt;p&gt;Here’s some of the stuff that no longer gives me headaches:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;em&gt;Masterplan&lt;/em&gt; is done. I was working on this for a looonng time and I can now say with some relief that I finally have the big picture figured out. This includes the complete set of features for version 1.0 (or Alpha or whatever you want to call it). Of course some things will still change along the journey but at least I know where I’m headed. Here’s a draft version for the One Pager that is still WIP. I will not explain it right now but I couldn’t wait to share it! &lt;br /&gt;&lt;img src=&quot;http://i.imgur.com/xL1bk9O.png&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; style=&quot;max-height:500px&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;I have now put in place the system for picking up equipment and items. Aside from the Spotters mentioned above, you can grab equipment that will give you abilities as long as you possess them. For now, only 2 of those are functional but I plan on creating a &lt;strong&gt;LOT&lt;/strong&gt; more. I will go into more details about the equipment some other time.&lt;/li&gt;
+  &lt;li&gt;A very simple HUD is now displayed. There is information about the current equipment, Spotters, and Health of the character. I want to keep things minimalist so there may already be too much information but it’s also kind of useful to have. We’ll see.&lt;/li&gt;
+  &lt;li&gt;Freshly added is the map view, an overlay where the hexagon map and your progress is displayed. The map gets bigger as you travel in the world and some hexagon tiles have special icons to indicate points of interests.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Next steps are first to finish the map view by squashing the bugs and second adding the Shelters. These will be places where the character will have to rest in order to recover from the hostile environment. It will also be a place to use special abilities and plan your strategy.&lt;/p&gt;
+
+&lt;p&gt;Stay awesome folks!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 03 Jan 2017 00:00:00 +0000</pubDate>
+        <link>http://farupstream.com/articles/2017-01/getting-interesting</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2017-01/getting-interesting</guid>
+        
+        
+        <category>dev update</category>
+        
+      </item>
     
       <item>
         <title>First &amp;quot;playable&amp;quot;</title>
