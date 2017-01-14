@@ -5,9 +5,50 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Jan 2017 23:19:54 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Jan 2017 23:19:54 +0000</lastBuildDate>
+    <pubDate>Sat, 14 Jan 2017 18:49:24 +0000</pubDate>
+    <lastBuildDate>Sat, 14 Jan 2017 18:49:24 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>There's no place like (a multi-dimensional) home</title>
+        <description>&lt;p&gt;Hey there!&lt;/p&gt;
+
+&lt;p&gt;This will be a very quick update so I’ll try to keep this short.&lt;/p&gt;
+
+&lt;h4 id=&quot;shelters-and-entropy&quot;&gt;Shelters and Entropy&lt;/h4&gt;
+
+&lt;p&gt;First, let me briefly explain the goal of the feature I’ve been working on.&lt;/p&gt;
+
+&lt;p&gt;Travelling through the multiverse is &lt;a href=&quot;http://i.giphy.com/26xBx2btTgloCnStW.gif&quot;&gt;not only exhausting&lt;/a&gt; for the Hunter but it can also be very harmful to him. Each universe has a different [level of entropy] and the higher this is, the more damage is dealt to the player over time. This will require the Hunter to find and rest at specific places called Shelters.&lt;/p&gt;
+
+&lt;p&gt;However, they will not only be important for regaining health. Shelters give access to special abilities to help you find the Prey or have a strategic advantage over it. For example, you can locate the nearest equipment or portal, possibly helping you get back on track. Additionally, each equipment will have unique powers that are only accessible there. The drawback of using any Shelter abilities is the loss of time. This means that the longer you stay in there, the farther the Prey is moving away.&lt;/p&gt;
+
+&lt;h4 id=&quot;progress&quot;&gt;Progress&lt;/h4&gt;
+
+&lt;p&gt;New stuff! You can see in the screenshot a first draft for the HUD, the map overlay and a placeholder Shelter:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/OvPJ4qD.png&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; style=&quot;max-height:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;So the map is (mostly) done. The icons are temporary and it’s very simple but everything is functional. As a side note, instead of using images to make the UI, I have created a custom font as a way to have vector files in Unreal Engine. This allows me to resize the UI without worrying about the resolution and it also has a much smaller memory footprint. It’s a little bit hackish but awesome.&lt;/li&gt;
+  &lt;li&gt;The shelters are about 50% done. I’m kind of blocked by the other missing features now so I’ll stop for now.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The next step is a big one: actually creating the Prey. I know I should have done this much sooner but there’s no running away now. There’s a lot of stuff to do here: creating a basic AI that is moving through a dynamically generated environment as well as taking decisions based on the player location and the features of the hex map. Oh, and also shifting through multiple Universes. You know, basic stuff.&lt;/p&gt;
+
+&lt;p&gt;I plan on releasing a build when I have something somewhat functional. I can’t wait for this because there will be an actual goal this time!&lt;/p&gt;
+
+&lt;p&gt;Keep it cool!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
+        <link>http://farupstream.com/articles/2017-01/no-place-like</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2017-01/no-place-like</guid>
+        
+        
+        <category>dev update</category>
+        
+      </item>
     
       <item>
         <title>This is getting interesting</title>
@@ -28,7 +69,7 @@
 &lt;p&gt;Here’s some of the stuff that no longer gives me headaches:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;The &lt;em&gt;Masterplan&lt;/em&gt; is done. I was working on this for a looonng time and I can now say with some relief that I finally have the big picture figured out. This includes the complete set of features for version 1.0 (or Alpha or whatever you want to call it). Of course some things will still change along the journey but at least I know where I’m headed. Here’s a draft version for the One Pager that is still WIP. I will not explain it right now but I couldn’t wait to share it! &lt;br /&gt;&lt;img src=&quot;http://i.imgur.com/xL1bk9O.png&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; style=&quot;max-height:500px&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;em&gt;Masterplan&lt;/em&gt; is done. I was working on this for a looonng time and I can now say with some relief that I finally have the big picture figured out. This includes the complete set of features for version 1.0 (or Alpha or whatever you want to call it). Of course some things will still change along the journey but at least I know where I’m headed. Here’s a draft version for the One Pager that is still WIP. I will not explain it right now but I couldn’t wait to share a glimpse it! &lt;br /&gt;&lt;img src=&quot;http://i.imgur.com/xL1bk9O.png&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; style=&quot;max-height:500px&quot; /&gt;&lt;/li&gt;
   &lt;li&gt;I have now put in place the system for picking up equipment and items. Aside from the Spotters mentioned above, you can grab equipment that will give you abilities as long as you possess them. For now, only 2 of those are functional but I plan on creating a &lt;strong&gt;LOT&lt;/strong&gt; more. I will go into more details about the equipment some other time.&lt;/li&gt;
   &lt;li&gt;A very simple HUD is now displayed. There is information about the current equipment, Spotters, and Health of the character. I want to keep things minimalist so there may already be too much information but it’s also kind of useful to have. We’ll see.&lt;/li&gt;
   &lt;li&gt;Freshly added is the map view, an overlay where the hexagon map and your progress is displayed. The map gets bigger as you travel in the world and some hexagon tiles have special icons to indicate points of interests.&lt;/li&gt;
