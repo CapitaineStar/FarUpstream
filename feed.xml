@@ -5,9 +5,71 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Jan 2017 18:53:29 +0000</pubDate>
-    <lastBuildDate>Sat, 14 Jan 2017 18:53:29 +0000</lastBuildDate>
+    <pubDate>Sat, 11 Feb 2017 21:53:04 +0000</pubDate>
+    <lastBuildDate>Sat, 11 Feb 2017 21:53:04 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>There shall be bugs</title>
+        <description>&lt;p&gt;I’m one (big) step closer to a real game! Below you will find the link for &lt;strong&gt;version 0.3&lt;/strong&gt; of the game but first, here’s what’s been happening during the last month.&lt;/p&gt;
+
+&lt;h4 id=&quot;update&quot;&gt;Update&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/Peud5QF.png&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; style=&quot;max-height:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The first very obvious change is the new environment (one more universe in the multiverse). Why waste some precious time in adding this instead of finishing important features? Well the &lt;strong&gt;good&lt;/strong&gt; reason is I needed a more complex environment to test the Prey movements. However, the &lt;strong&gt;real&lt;/strong&gt; reason is I was getting bored with the last universe. Making the new one was a lot of fun and I’m really pleased with the result (poke me if you are interested in the details).&lt;/li&gt;
+  &lt;li&gt;The big new feature is the addition of the Prey and with it, a real goal for the player. It’s still very basic for now and the AI is completely dumb. There’s no interaction with the Hunter and there’s currently nothing to do when you find it. Still, it can be kind of fun to try to locate it but I &lt;em&gt;might&lt;/em&gt; be biased.&lt;/li&gt;
+  &lt;li&gt;Almost all of the tools for finding the Prey are functional. It is possible it will not be enough in the final game but I think it may be just a matter of tweaking the availability of those tools.&lt;/li&gt;
+  &lt;li&gt;I’ve worked on the Shelters again, changing the visuals and finishing the features. It looks a lot more weird now but I kind of like it. Of course, this will continue to change as I polish it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the coming weeks, I plan on working on the actual hunt gameplay as well as the shift between the universes.&lt;/p&gt;
+
+&lt;h4 id=&quot;version-03&quot;&gt;Version 0.3&lt;/h4&gt;
+
+&lt;p&gt;So here’s the link to download the latest build:&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-info&quot; href=&quot;https://drive.google.com/file/d/0B69VFxUQ_NcuOEU2ajNTVzd1TTg/view?usp=sharing&quot; target=&quot;_blank&quot;&gt;
+  Multivrs v0.3
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you want missing features? I got you covered. Some confusing gameplay with no help text? Say no more. Maybe a couple of game-breaking bugs? Of course! But before sending you into the unknown, there are some important things I need to explain.&lt;/p&gt;
+
+&lt;p&gt;First the controls. I strongly suggest playing with keyboard and mouse this time since the gamepad is not supported in the menus. Here’s the keys you need to know:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Mouse&lt;/strong&gt; to move the camera&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;WASD&lt;/strong&gt; to move the Hunter&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spacebar&lt;/strong&gt; to jump (holding it will make you jump higher)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;E&lt;/strong&gt; to pickup gear and enter Shelters&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tab&lt;/strong&gt; to show the map&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; and &lt;strong&gt;2&lt;/strong&gt; to use Location(x) and Momentum(p) Spotter&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Esc&lt;/strong&gt; to pause and exit the game&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then, the actual gameplay. There is no score, time or death right now (although there is a Health stat). You can freely go anywhere and do anything but if you would like to find the Prey, here’s some hints.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you are very far from the start location, just restart the game. There is a known issue with the Prey if you are too far away.&lt;/li&gt;
+  &lt;li&gt;Collecting the Location (x) and Momentum (p) Spotters will help you know informations about the Prey, respectively it’s current position and direction of travel. These infos will be displayed on the map once you use Spotters and will stay there for about 1 min.&lt;/li&gt;
+  &lt;li&gt;Entering Shelters will give you access to some special actions. You will be able to locate the nearest gear but more importantly, you can make a Location or Momentum scan without using any Spotters.&lt;/li&gt;
+  &lt;li&gt;The 3D model for the Prey is really just a placeholder. I still haven’t figure out what it will look like in the end.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I really hope all of this is not too confusing. There’s still a lot of work to do on feedback and clarity. Speaking of which, I would really appreciate any comments you might have on the current state of the game. Please take a minute or two to answer these &lt;a href=&quot;https://goo.gl/forms/HZk4cdwARNKpraMp1&quot;&gt;few questions&lt;/a&gt;. As usual, you can also just leave a comment below or on the Facebook page.&lt;/p&gt;
+
+&lt;p&gt;Keep it cool!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+        <link>http://farupstream.com/articles/2017-02/there-shall-be-bugs</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2017-02/there-shall-be-bugs</guid>
+        
+        
+        <category>dev update</category>
+        
+      </item>
     
       <item>
         <title>There's no place like (a multi-dimensional) home</title>
