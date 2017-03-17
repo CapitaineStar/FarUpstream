@@ -5,9 +5,37 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Feb 2017 21:53:04 +0000</pubDate>
-    <lastBuildDate>Sat, 11 Feb 2017 21:53:04 +0000</lastBuildDate>
+    <pubDate>Fri, 17 Mar 2017 02:53:51 +0100</pubDate>
+    <lastBuildDate>Fri, 17 Mar 2017 02:53:51 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Successfully failing</title>
+        <description>&lt;p&gt;So in the past couple of weeks, not a lot of progress has been done. I have been bogged down in details, I trashed some concepts, introduced ugly bugs… I also possibly lost 2 weeks on a big change to the main character (more on that below).&lt;/p&gt;
+
+&lt;h4 id=&quot;progress&quot;&gt;Progress&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/Dft6oMW.jpg&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; style=&quot;max-height:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The most significant achievement is making the system to switch between Universes. I have a basic template for the Portals. Aside from a cool effect in the center of them (see screenshot), everything is pretty rough. All of this still a lot of love to make it good-looking.&lt;/li&gt;
+  &lt;li&gt;I have worked on some boring stuff under the hood to make the transition from one Universe to another happen without any bugs (fun times).&lt;/li&gt;
+  &lt;li&gt;Ok so I had this great idea for the Hunter: what if he was piloting some sort of hovercraft? He would be skimming across the surface, his equipment strapped to the vehicle and the antenna pointing toward the location of the Prey. So I made it. You can see what it looks like in the screenshot above. It took me two weeks to do it, including the modelling and some animations and effects. It’s also a completely new control scheme. The result are very underwhelming. It’s not bad but it doesn’t really solve all the problems like I was hopping. So I’m putting this on hold. I will come back to it in maybe 2 weeks and decide if I trash it completely or work more on it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m taking next week off to go running around in the snow and sleeping in shelters. This will be a well needed break away from the Multiverse.&lt;/p&gt;
+
+&lt;p&gt;Keep it cool!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 16 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://farupstream.com/articles/2017-03/successfully-failing</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2017-03/successfully-failing</guid>
+        
+        
+        <category>dev update</category>
+        
+      </item>
     
       <item>
         <title>There shall be bugs</title>
