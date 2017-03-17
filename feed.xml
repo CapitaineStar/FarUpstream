@@ -5,12 +5,12 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Mar 2017 02:53:51 +0100</pubDate>
-    <lastBuildDate>Fri, 17 Mar 2017 02:53:51 +0100</lastBuildDate>
+    <pubDate>Fri, 17 Mar 2017 02:56:11 +0100</pubDate>
+    <lastBuildDate>Fri, 17 Mar 2017 02:56:11 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Successfully failing</title>
+        <title>Failing successfully</title>
         <description>&lt;p&gt;So in the past couple of weeks, not a lot of progress has been done. I have been bogged down in details, I trashed some concepts, introduced ugly bugs… I also possibly lost 2 weeks on a big change to the main character (more on that below).&lt;/p&gt;
 
 &lt;h4 id=&quot;progress&quot;&gt;Progress&lt;/h4&gt;
@@ -29,8 +29,8 @@
 
 </description>
         <pubDate>Thu, 16 Mar 2017 00:00:00 +0100</pubDate>
-        <link>http://farupstream.com/articles/2017-03/successfully-failing</link>
-        <guid isPermaLink="true">http://farupstream.com/articles/2017-03/successfully-failing</guid>
+        <link>http://farupstream.com/articles/2017-03/failing-successfully</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2017-03/failing-successfully</guid>
         
         
         <category>dev update</category>
