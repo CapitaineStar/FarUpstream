@@ -5,9 +5,57 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Mar 2017 02:56:11 +0100</pubDate>
-    <lastBuildDate>Fri, 17 Mar 2017 02:56:11 +0100</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 22:51:25 +0100</pubDate>
+    <lastBuildDate>Thu, 20 Apr 2017 22:51:25 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Tightening up the graphics on level 3</title>
+        <description>&lt;p&gt;It’s been another long month since the last update so it’s about time I give some news.&lt;/p&gt;
+
+&lt;p&gt;The last weeks have been going on smoothly. There’s not a lot of big improvements but a couple of nice ones. I’m inching slowly but steadily towards the next release. If everything goes right, I might be able to have the next version in a week or two.&lt;/p&gt;
+
+&lt;p&gt;Before the usual update notes, here’s some info about the final steps of the hunt.&lt;/p&gt;
+
+&lt;h4 id=&quot;pulling-the-trigger&quot;&gt;Pulling the trigger&lt;/h4&gt;
+
+&lt;p&gt;So let’s say you managed to track down a multi-dimensional being. Will you be able to kill it without fucking it up? Well, pay attention. Here’s how it’s done.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First, you need to know a very important characteristic of the Prey. Even if it leaves a trace in all Universes at the same time, its “soul” resides in only one of them. If you are not in the correct Universe, you will only be able to see the ethereal shape of the Prey, a sort of shadow across the Multiverse.&lt;/li&gt;
+  &lt;li&gt;However, even though it won’t kill it, you should still try to shoot and hit the Prey. The Hunter carries a strange and powerful weapon that can tear up a fragment of the Prey through multiple dimensions. By picking this piece of the target, you will be able to know in which Universe the “soul” of the Prey is currently located.&lt;/li&gt;
+  &lt;li&gt;With this information in hand, you now know where to go next. You still need to hurry, not only because the Multiverse is a perilous place but also because the Prey might try to switch to an other Universe.&lt;/li&gt;
+  &lt;li&gt;Finally, be cautious when approaching the Prey! Simply with its presence, it’s disturbing the space-time around itself! As you get closer to the target, you will experience a slow down of time and the environment will be much more harmful to the Hunter.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is it! I will not spoil the awesome and &lt;a href=&quot;https://media.giphy.com/media/11CCn8sSFSm2kg/giphy.gif&quot; target=&quot;_blank&quot;&gt;already planned&lt;/a&gt; ending so you will have to play to see it.&lt;/p&gt;
+
+&lt;h4 id=&quot;update&quot;&gt;Update&lt;/h4&gt;
+
+&lt;p&gt;New screenshot!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/aLIZiw1.jpg&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; style=&quot;max-height:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I modified (again) the system to manage the ambience (lighting, fog, post-process, …). It’s now much more convenient and predictable and can eventually support multiple ambiences for the same environment. I have used this to changed the whole look of the very first Universe I created (as you can see in the screenshot).&lt;/li&gt;
+  &lt;li&gt;Also in the image above is the new User Interface! I will use these sort of floating texts to display most of the information the player needs. The system is flexible and I’m truly pleased with it! Of course, it looks better in action (note to self: make gifs next time).&lt;/li&gt;
+  &lt;li&gt;Speaking of UI, I implemented a pretty basic Main menu. Still needs a lot of love in there.&lt;/li&gt;
+  &lt;li&gt;In terms of actual gameplay, almost all the steps I talked about in the previous section are now in place. I have added the sort of space-time disruption around the Prey as well as the fragment that is detached when you hit the target. Of course, I need to work more on this gameplay loop but it’s starting to take shape.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s it for now! &lt;a href=&quot;https://www.youtube.com/watch?v=BRWvfMLl4ho&quot; target=&quot;_blank&quot;&gt;Back to finishing level 3 and tightening up the graphics!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Keep it cool!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 20 Apr 2017 00:00:00 +0100</pubDate>
+        <link>http://farupstream.com/articles/2017-04/tightening-up-the-graphics</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2017-04/tightening-up-the-graphics</guid>
+        
+        
+        <category>dev update</category>
+        
+      </item>
     
       <item>
         <title>Failing successfully</title>
