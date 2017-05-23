@@ -5,9 +5,59 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Apr 2017 22:51:25 +0100</pubDate>
-    <lastBuildDate>Thu, 20 Apr 2017 22:51:25 +0100</lastBuildDate>
+    <pubDate>Tue, 23 May 2017 19:56:27 +0100</pubDate>
+    <lastBuildDate>Tue, 23 May 2017 19:56:27 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Trigger happy</title>
+        <description>&lt;p&gt;Yep, I’m asking for feedback again!&lt;/p&gt;
+
+&lt;p&gt;Below is a link to download Version 0.4 of the game. A lot of things have been added to it since the last version so I encourage anyone to download and try it, event those that played a previous version. In this one, it’s actually possible to win! What a time to be alive!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/vs7TrXD.jpg&quot; alt=&quot;screenshot&quot; style=&quot;max-height:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;update&quot;&gt;Update&lt;/h4&gt;
+
+&lt;p&gt;First, here’s what I’ve worked on since the last post.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The way the Prey moves is now vastly improved. It’s now kind of flying/hovering instead of walking and is much more predictable. No more getting stuck in an obstacle! Although it is possible the Prey will fly upward indefinitely so… ¯\_(ツ)_/¯&lt;/li&gt;
+  &lt;li&gt;Speaking of which, I’ve started working on the &lt;a href=&quot;https://media.giphy.com/media/3ohzdRrSfss011lCJW/giphy.gif&quot; target=&quot;_blank&quot;&gt;visuals for the Prey&lt;/a&gt;. Right now, there’s only the head without the rest of the body but I think it’s starting to look nice. There’s still a lot to do however: rigging/skinning, animations, FX, … The reason I’m releasing it even if it’s not finished is that I’m waiting for the release of Unreal Engine 4.16, which will add a new cloth physics solver. Since I plan to make the Prey’s body mostly with cloth, I’ll wait a bit so I’ll not do the work twice.&lt;/li&gt;
+  &lt;li&gt;A lot of effort has been put on a tech to make &lt;a href=&quot;https://media.giphy.com/media/xUA7aLMBCSUWfjA7Oo/giphy.gif&quot; target=&quot;_blank&quot;&gt;nice wind trails&lt;/a&gt;. The results are interesting but unfortunately it is very ressource intensive. Because of that, I’m not sure if I will continue to work on it or find a new way to do it. It would be a shame to trash it because the tech is nifty. It involves creating a wind simulation in Houdini, exporting a custom file format with Python, reading the custom file in Unreal with C++ and creating splines at runtime that are followed by trail emitters.&lt;/li&gt;
+  &lt;li&gt;The Shelter menu was in need of an overhaul so I changed it’s whole look. It’s now closer to the rest of the UI Art direction but a lot of features are missing. For this version, the only thing available is the Rest option although it shouldn’t be an issue to play the game.&lt;/li&gt;
+  &lt;li&gt;An finally, a lot of bugs have been fixed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;version-04&quot;&gt;Version 0.4&lt;/h4&gt;
+
+&lt;p&gt;Here is the download link:&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-info&quot; href=&quot;https://drive.google.com/file/d/0B69VFxUQ_NcuVWNJdDBzanV0Snc/view?usp=sharing&quot; target=&quot;_blank&quot;&gt;
+  Multivrs v0.4
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A few small notes concerning this version:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pay attention to the text bubbles! Normally, all the necessary informations to play the game will be displayed via text in the upper left corner. Right now, it’s not possible to read the text again when it’s gone so if you missed something, the only way to see it again will be to close and start the game again.&lt;/li&gt;
+  &lt;li&gt;Obviously, the balancing is not done so it’s kind of easy right now. This does not mean that you cannot die so you should keep an eye on your health. Everything will be very different once all the features and content will be in place.&lt;/li&gt;
+  &lt;li&gt;Please give take a few seconds to respond to &lt;a href=&quot;https://goo.gl/forms/P3rA2P32F29IUVI03&quot; target=&quot;_blank&quot;&gt;this small survey&lt;/a&gt;! Any feedback is welcome and much appreciated.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Keep it cool!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 23 May 2017 00:00:00 +0100</pubDate>
+        <link>http://farupstream.com/articles/2017-05/trigger-happy</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2017-05/trigger-happy</guid>
+        
+        
+        <category>dev update</category>
+        
+        <category>release</category>
+        
+      </item>
     
       <item>
         <title>Tightening up the graphics on level 3</title>
@@ -145,6 +195,8 @@
         
         <category>dev update</category>
         
+        <category>release</category>
+        
       </item>
     
       <item>
@@ -267,6 +319,8 @@
         
         
         <category>dev update</category>
+        
+        <category>release</category>
         
       </item>
     
