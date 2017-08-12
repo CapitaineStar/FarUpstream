@@ -5,9 +5,45 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Jul 2017 23:40:39 +0100</pubDate>
-    <lastBuildDate>Sun, 23 Jul 2017 23:40:39 +0100</lastBuildDate>
+    <pubDate>Sun, 13 Aug 2017 00:12:59 +0100</pubDate>
+    <lastBuildDate>Sun, 13 Aug 2017 00:12:59 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Step lightly</title>
+        <description>&lt;p&gt;Hey folks!&lt;/p&gt;
+
+&lt;p&gt;Here’s something else to know about the dangers lurking in the Multivers.&lt;/p&gt;
+
+&lt;h4 id=&quot;entropy-bubbles&quot;&gt;Entropy bubbles&lt;/h4&gt;
+
+&lt;p&gt;Keep your eyes peeled when running around looking for the Prey because if not careful, you might accidentally enter an entropy bubble.&lt;/p&gt;
+
+&lt;p&gt;These are scattered across the surface and do a great deal of damage to the Hunter. Some equipment will help to see them clearly but without it, the only way to see them is to cautiously look out for a small air refraction around the bubble.&lt;/p&gt;
+
+&lt;p&gt;This is what stepping on them looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/3oEhn9KniOuOi77SrC/giphy.gif&quot; alt=&quot;screenshot&quot; style=&quot;min-height:320px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;update&quot;&gt;Update&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Like you can see from the screenshot above, the entropy bubbles are done. They are spawned randomly on the ground and I’m pleased with the explosion effect. The weird black structure/dust is made with a raymarching shader applied on a 2d billboard so no textures are involved.&lt;/li&gt;
+  &lt;li&gt;Apart from that, I made a couple of experiments mostly for fun and invested some time on my Houdini skills.&lt;/li&gt;
+  &lt;li&gt;I will be taking another long vacation! (what a loafer…) I might be back in Kuujjuaq around early October. The plan is to make a very long road trip across the continent. I still want to work a little bit on the game during that time but I will be armed only with a notebook and a pen. However since I need to do some writing for the character, setting and “story”, this will be a good excuse.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Keep it cool!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 12 Aug 2017 00:00:00 +0100</pubDate>
+        <link>http://farupstream.com/articles/2017-08/step-lightly</link>
+        <guid isPermaLink="true">http://farupstream.com/articles/2017-08/step-lightly</guid>
+        
+        
+        <category>dev update</category>
+        
+      </item>
     
       <item>
         <title>When in doubt, make a new Universe</title>
@@ -393,51 +429,6 @@
         <category>dev update</category>
         
         <category>release</category>
-        
-      </item>
-    
-      <item>
-        <title>Baby steps</title>
-        <description>&lt;p&gt;I just finished the first “real” full-time work week for the game. Here’s what happened:&lt;/p&gt;
-
-&lt;h4 id=&quot;the-grid&quot;&gt;The Grid&lt;/h4&gt;
-&lt;p&gt;First a bit more info on a crucial element of the game: I have decided to use an &lt;a href=&quot;https://en.wikipedia.org/wiki/Hex_map&quot; target=&quot;_blank&quot;&gt;hex grid&lt;/a&gt; for the game “board”. It’s normally exclusive to strategy games (think Civ or Catan) but this will serve 3 important purposes in my case:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Help create a modular system for the game assets, especially everything related to the terrain. This will be way better than having to create manually a terrain that is limited in it’s size (for manpower and memory reasons), or coming up with big world generator (Notch was not available since he’s busy writing shitty tweets).&lt;/li&gt;
-  &lt;li&gt;Serve as a foundation to design the strategic elements of the game. Some hexagon tiles will influence the gameplay in specific ways and inversely the player will have abilities that can affect the tiles. Most of these features will be managed in a “map view” where the grid will be pretty obvious.&lt;/li&gt;
-  &lt;li&gt;Hex grids make everything awesome!&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;progress-so-far&quot;&gt;Progress so far&lt;/h4&gt;
-
-&lt;p&gt;First screenshot! Whooo!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/vrlcPJh.png&quot; alt=&quot;screenshot&quot; title=&quot;progress screenshot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is what has been achieve this week :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The data structure that describes the properties of a univers (or level if you want). It’s pretty basic for now but it can be easily expanded in the future.&lt;/li&gt;
-  &lt;li&gt;Using this data, I can spawn an environment that endlessly grows as the player moves. The look and gameplay elements are also setup automatically by the data structure and can be switched easily.&lt;/li&gt;
-  &lt;li&gt;A &lt;strong&gt;very&lt;/strong&gt; basic terrain, that is functional but really ugly. It served mostly as a workbench to test the modular approach to the ground creation and I’m happy to have a result that is mostly seamless (transition between hexagon tiles are almost hidden).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Next step is to implement the first iteration of the 3Cs (Character, Camera and Controls). I estimate it will take me at least another week to have something decent. After this is done, I will probably be ready to share the first build of the “game”. Of course, it will be very bare bones with nothing to do but running endlessly in an unattractive desert. Exciting no? Don’t worry, I’ll let you know when it’s ready so you’ll be able to tell me how much it’s disappointing ;)&lt;/p&gt;
-
-&lt;h4 id=&quot;cyberspace-of-the-north&quot;&gt;Cyberspace of the North&lt;/h4&gt;
-
-&lt;p&gt;Internet access is only possible with satellites in Kuujjuaq. As you may guess, this means that it’s expensive and the quality depends on a lot of factors (whether there’s a lot of people using it at the same time or if it snowed on the satellite dish). Normally, the download speed is “ok” (average of 0.8 Mb/s) but the latency is really high (about 600ms). Here’s what &lt;a href=&quot;http://beta.speedtest.net/result/5831645979&quot; target=&quot;_blank&quot;&gt;a typical connection looks like&lt;/a&gt;. To be honest, it can be really frustrating when it slows down to a crawl but I just have to be patient and remind myself that my Google search result for “&lt;a href=&quot;http://www.google.ca/search?q=raccoon+stealing+cat+food&quot; target=&quot;_blank&quot;&gt;raccoon stealing cat food&lt;/a&gt;” is coming from &lt;strong&gt;fucking space!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Stay tuned!&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
-        <link>http://farupstream.com/articles/2016-11/baby-steps</link>
-        <guid isPermaLink="true">http://farupstream.com/articles/2016-11/baby-steps</guid>
-        
-        
-        <category>dev update</category>
         
       </item>
     
