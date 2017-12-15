@@ -5,13 +5,13 @@
     <description>DevBlog of CapitaineStar</description>
     <link>http://farupstream.com/</link>
     <atom:link href="http://farupstream.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Dec 2017 20:53:30 +0000</pubDate>
-    <lastBuildDate>Fri, 15 Dec 2017 20:53:30 +0000</lastBuildDate>
+    <pubDate>Fri, 15 Dec 2017 22:13:53 +0000</pubDate>
+    <lastBuildDate>Fri, 15 Dec 2017 22:13:53 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>The End of this Road</title>
-        <description>&lt;p&gt;This will probably be my last post here for a long time.&lt;/p&gt;
+        <description>&lt;p&gt;This will probably be my last post here for a while.&lt;/p&gt;
 
 &lt;p&gt;After having plenty of time in the past months to make this decision, I’ve chosen to stop the development of my game (AKA Multivrs). Here are some of the reasons why.&lt;/p&gt;
 
