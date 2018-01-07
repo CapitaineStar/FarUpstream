@@ -1592,6 +1592,26 @@ ul.tag-cloud {
   .archive ul li {
     margin: 1em auto; }
 
+.feature-listing {
+  background-color: #1E1E20;
+  color: #f4f1e7;
+  position: absolute;
+  top: 400px;
+  z-index: 233;
+  width: 100%;
+  padding: 20px 20px 0;
+  -webkit-transform: translate3d(0, 0, 1px);
+  transform: translate3d(0, 0, 1px); }
+  @media only screen and (min-width: 600px) {
+    .feature-listing {
+      padding: 50px 50px 0; } }
+  @media only screen and (min-width: 992px) {
+    .feature-listing {
+      height: 100vh;
+      overflow-y: scroll;
+      position: initial;
+      top: 0; } }
+
 .post-listing {
   background-color: #f4f1e7;
   position: absolute;
